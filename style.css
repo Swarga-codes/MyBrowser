@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'San Francisco', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+.navbar{
+    display: flex;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    background-color: #27272a;
+    margin-bottom: 2rem;
+    top: 0;
+}
+.action_buttons button{
+padding: 0.5rem;
+background: none;
+border: none;
+cursor: pointer;
+}
+.search{
+    padding: 0.5rem;
+    width: 70vw;
+    margin: auto;
+}
+.home_page,.web_view{
+    margin-top: 0rem;
+}
+.web_view{
+    height: 100vh;
+    margin-top: 1rem;
+}
+.home_page{
+    height: 100vh;
+    background: url('https://picsum.photos/1080/1920');
+    background-size: 100vw 100vh;
+}
+
+
+.date-time{
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+width: fit-content;
+border-radius: 24px;
+padding: 0.5rem;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.date-time h1{
+    font-size: 15rem;
+    color: #27272a;
+}
+  
+#lottie-container {
+    width: 300px;
+    height: 300px;
+  }
+  .LinkToHome{
+    text-align: center;
+  }
+ .LinkToHome img{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-top: 5rem;
+    
+ }
